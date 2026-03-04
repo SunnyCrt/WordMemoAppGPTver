@@ -4,7 +4,7 @@ export default function BottomSheet(props: {
   open: boolean
   title?: string
   onClose: () => void
-  children: React.ReactNode
+  children?: React.ReactNode
 }) {
   const { open, onClose } = props
 
